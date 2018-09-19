@@ -1,0 +1,5 @@
+var sj = new GlideRecord('sys_journal_field');
+sj.addEncodedQuery('element_id=811dadec4f427a40790c36e18110c762');
+sj.setLimit(45);
+sj.query();
+sj.deleteMultiple();
